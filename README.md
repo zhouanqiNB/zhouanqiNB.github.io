@@ -7,3 +7,10 @@ I chose [this project](https://www.youtube.com/watch?v=27JtRAI3QO8) to follow, w
 Let's begin the journey!
 
 ## 2022/7/16
+
+This is a simple way to see outcomes immediately.
+
+```bash
+python -m http.server 8044
+# 127.0.0.1:8044/index.html
+```
