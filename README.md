@@ -14,3 +14,7 @@ This is a simple way to see outcomes immediately.
 python -m http.server 8044
 # 127.0.0.1:8044/index.html
 ```
+
+From today's practice, I found that frontend development is a work which needs much carefulness and patient. For me it's kinda tiresome to find the bug.
+
+The most annoying thing that happened to me is that I have much trouble finding the reason why my css code does not work. My code seems to be exactly the same as in the video!
