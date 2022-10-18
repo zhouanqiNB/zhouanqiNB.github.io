@@ -48,7 +48,6 @@
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
   /*========== z index ==========*/
@@ -383,7 +382,7 @@ img {
 .about__info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 2.5rem;
 }
 
 .about__info-title {
