@@ -122,6 +122,34 @@ img {
   color: var(--first-color);
 }
 
+/*=========== query ===========*/
+.query__container {
+  row-gap: 3rem;
+}
+
+.query__content {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: .5rem;
+  padding: .1rem .5rem .1rem;
+}
+
+.query__content:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: .5rem;
+  padding: .1rem .5rem .05rem;
+}
+
+.query__input {
+  width: 100%;
+  background-color: var(--input-color);
+  color: #fff;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: .25rem .5rem .5rem 0;
+}
+
 /*==================== home section ====================*/
 /* bg the picture */
 .home {
