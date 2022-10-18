@@ -295,7 +295,7 @@ img {
 
 .footer__bg {
   background-color: var(--first-color);
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 6rem;
 }
 
 .footer__title {
@@ -314,13 +314,6 @@ img {
 
 .footer__social:hover {
   color: var(--first-color-darker);
-}
-
-.footer__copy {
-  font-size: var(--small-font-size);
-  text-align: center;
-  color: rgb(222, 222, 222);
-  margin-top: 3rem;
 }
 
 .footer__title,
@@ -413,15 +406,11 @@ img {
   }
 
   .footer__bg {
-    padding: 3rem 0 3.5rem;
+    padding: 3rem 0 6rem;
   }
 
   .footer__socials {
     justify-self: flex-end;
-  }
-
-  .footer__copy {
-    margin-top: 4.5rem;
   }
 }
 
@@ -441,4 +430,125 @@ img {
   .recent__content {
     column-gap: 5rem;
   }
+}
+
+/* ================ copied from my typora theme ================= */
+#write {
+  margin: 0px auto;
+  height: auto;
+  width: inherit;
+  word-break: normal;
+  word-wrap: break-word;
+  position: relative;
+  white-space: normal;
+  overflow-x: visible;
+  padding-top: 20;
+}
+
+body.typora-export {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.typora-export p {
+  white-space: pre-wrap;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+figure {
+  overflow-x: auto;
+  margin: 1.2em 0px;
+  max-width: calc(100% + 16px);
+  padding: 0px;
+}
+
+figure>table {
+  margin: 0px;
+}
+
+thead,
+tr {
+  break-inside: avoid;
+  break-after: auto;
+}
+
+thead {
+  display: table-header-group;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 100%;
+  overflow: auto;
+  break-inside: auto;
+  text-align: left;
+}
+
+table tr th {
+  border-bottom-width: 0px;
+}
+
+/****** #write basic ******/
+#write {
+  position: static;
+  width: 90%;
+  max-width: 700px;
+  line-height: 1.6;
+  transform: none;
+  height: auto;
+}
+
+/****** Global Style ******/
+body {
+  margin: 0;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%
+}
+
+table {
+  padding: 0;
+  word-break: initial;
+}
+
+table tr {
+  border-top: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n),
+thead {
+  background-color: #f6f9fb;
+}
+
+table tr th {
+  font-weight: bold;
+  border: 1px solid #dfe2e5;
+  border-bottom: 0;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr td {
+  border: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr th:first-child,
+table tr td:first-child {
+  margin-top: 0;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+  margin-bottom: 0;
 }
