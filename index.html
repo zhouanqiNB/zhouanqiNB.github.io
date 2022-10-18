@@ -5,29 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--==================== ICONS ====================-->
+    <!--==================== icons ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <!--==================== CSS ====================-->
+    <!--==================== css ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--==================== page icon =====================-->
+    <link rel="shortcut icon" href="assets/img/bird.ico">
 
     <title>Angie's Home Page</title>
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
+    <!--==================== NAVIGATE ====================-->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">Angie's Blog</a>
         </nav>
     </header>
-
     <!--==================== MAIN ====================-->
+    <!-- main part of this page -->
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__content grid">
+                    <!-- links to social accounts -->
                     <div class="home__social">
                         <a href="" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
@@ -35,12 +39,12 @@
                         <a href="https://codeforces.com/profile/luckyzzzaq" class="home__social-icon">
                             <i class="uil uil-graph-bar"></i>
                         </a>
-
                         <a href="https://leetcode.cn/u/hao-hao-xue-xi-qi-an-zhou" class="home__social-icon">
                             <i class="uil uil-laughing"></i>
                         </a>
                     </div>
 
+                    <!-- my cat img profile -->
                     <div class="home__img">
                         <svg id="graph" width="100%" height="400px">
                             <defs>
@@ -49,11 +53,13 @@
                                     </image>
                                 </pattern>
                             </defs>
+                            <!-- circle -->
                             <circle id="sd" class="medium" cx="50%" cy="47%" r="42%" fill="url(#image)"
                                 stroke="lightblue" stroke-width="0%" />
                         </svg>
                     </div>
 
+                    <!-- texts -->
                     <div class="home__data">
                         <h1 class="home__title">Angie's Blog</h1>
                         <h3 class="home__subtitle">Computer Science student</h3>
@@ -65,108 +71,95 @@
         </section>
 
         <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most recent work</span>
+        <section class="recent section" id="recent">
+            <h2 class="section__title">Recent Works</h2>
 
-            <div class="portfolio__container container">
-                <div>
-                    <!--==================== PORTFOLIO 1 ====================-->
-                    <div class="portfolio__content grid">
-                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+            <div class="recent__container container">
+                <div class="recent__content grid">
+                    <img src="assets/img/recent1.jpg" alt="" class="recent__img">
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">The WARS</h3>
-                            <p class="portfolio__description">an interesting game(not completed yet)</p>
+                    <div class="recent__data">
+                        <h3 class="recent__title">The WARS</h3>
+                        <p class="recent__description">an interesting game(not completed yet)</p>
 
-                            <a href="" class="button button--flex button--small portfolio__button">
-                                repo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
+                        <a href="" class="button button--flex button--small recent__button">
+                            repo
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section" id="qualification">
-            <h2 class="section__title">Qualification</h2>
-            <span class="section__subtitle">My personal journey</span>
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Experience</h2>
 
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Education
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target='#work'>
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Work
-                    </div>
-                </div>
-
-                <div class="qualification__sections">
-                    <!--==================== QUALIFICATION CONTENT 1====================-->
-                    <div class="qualification__content qualification__active" data-content id="education">
-                        <!--==================== QUALIFICATION 1====================-->
-                        <div class="qualification__data">
+            <div class="experience__container container">
+                <div class="experience__sections">
+                    <!--==================== EXPERIENCE CONTENT 1====================-->
+                    <div class="experience__content experience__active" data-content id="education">
+                        <!--==================== EXPERIENCE 1====================-->
+                        <div class="experience__data">
                             <div>
-                                <h3 class="qualification__title">High school</h3>
-                                <span class="qualification__subtitle">Jiangsu Province</span>
-                                <div class="qualification__calender">
+                                <h3 class="experience__title">High school</h3>
+                                <span class="experience__subtitle">Jiangsu Province</span>
+                                <div class="experience__calender">
                                     <i class="uil uil-calendar-alt"></i>
                                     2016 - 2019
                                 </div>
                             </div>
 
                             <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
                             </div>
                         </div>
-                        <!--==================== QUALIFICATION 2====================-->
-                        <div class="qualification__data">
+                        <!--==================== EXPERIENCE 2====================-->
+                        <div class="experience__data">
                             <div></div>
 
+
                             <div>
-                                <span class="qualification__rounder"></span>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
                             </div>
 
                             <div>
-                                <h3 class="qualification__title">Computer Science</h3>
-                                <span class="qualification__subtitle">Nankai University</span>
-                                <div class="qualification__calender">
+                                <h3 class="experience__title">Computer Science</h3>
+                                <span class="experience__subtitle">Nankai University</span>
+                                <div class="experience__calender">
                                     <i class="uil uil-calendar-alt"></i>
                                     2019 -
                                 </div>
                             </div>
+
                         </div>
-                    </div>
-                    <!--==================== QUALIFICATION CONTENT 2====================-->
-                    <div class="qualification__content" data-content id="work">
-                        <!--==================== QUALIFICATION 1====================-->
-                        <div class="qualification__data">
+                        <!--==================== EXPERIENCE 3====================-->
+                        <div class="experience__data">
                             <div>
-                                <h3 class="qualification__title">Backend Development</h3>
-                                <span class="qualification__subtitle">Go language</span>
-                                <div class="qualification__calender">
+                                <h3 class="experience__title">Backend Development</h3>
+                                <span class="experience__subtitle">Go language</span>
+                                <div class="experience__calender">
                                     <i class="uil uil-calendar-alt"></i>
                                     2022 -
                                 </div>
                             </div>
 
                             <div>
-                                <span class="qualification__rounder"></span>
+                                <span class="experience__rounder"></span>
                             </div>
                         </div>
+                    </div>
+                    <!--==================== EXPERIENCE CONTENT 2====================-->
+                    <div class="experience__content" data-content id="work">
+                        <!--==================== EXPERIENCE 1====================-->
+
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
     <!--==================== FOOTER ====================-->
     <footer class="footer">
         <div class="footer__bg">
@@ -194,9 +187,6 @@
             <p class="footer__copy">&#169; Angie. All right reserved</p>
         </div>
     </footer>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
