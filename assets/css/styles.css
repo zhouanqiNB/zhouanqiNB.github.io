@@ -6,16 +6,13 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --hue-color: 246;
+  --hue-color: 180;
 
-  --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+  --first-color: hsl(var(--hue-color), 100%, 35%);
+  --first-color-darker: hsl(var(--hue-color), 100%, 25%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
 
   /*========== Font and typography ==========*/
@@ -157,7 +154,7 @@ img {
 /*==================== HOME ====================*/
 .home {
   background-image: url('/assets/img/bg.png');
-  background-size: 100% 160%;
+  background-size: cover;
 }
 
 .home__container {
@@ -183,7 +180,7 @@ img {
 }
 
 .home__social-icon:hover {
-  color: var(--first-color-alt);
+  color: var(--first-color-darker);
 }
 
 .home__data {
@@ -219,7 +216,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color-darker);
 }
 
 .button__icon {
@@ -312,7 +309,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: var(--first-color);
   padding: 2rem 0 3rem;
 }
 
@@ -331,13 +328,13 @@ img {
 }
 
 .footer__social:hover {
-  color: var(--first-color-lighter);
+  color: var(--first-color-darker);
 }
 
 .footer__copy {
   font-size: var(--small-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: rgb(222, 222, 222);
   margin-top: var(--mb-3);
 }
 
